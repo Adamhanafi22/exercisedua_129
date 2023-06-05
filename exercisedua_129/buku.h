@@ -10,7 +10,7 @@ public:
 	string nama;
 	buku(string pNama) :nama(pNama) {
 		cout << "Anak \"" << nama << "\" ada\n";
-	}
+	} 
 	
 };
 
