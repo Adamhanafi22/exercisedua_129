@@ -18,7 +18,7 @@ public:
 void pengarang::tambahbuku(buku* pbuku) {
 	daftar_buku.push_back(pbuku);
 }
-void pengarang::cetakbuku() {
+void pengarang::cetakbuku() { 
 	cout << "Daftar buku dari pengarang \"" << this->nama << "\":\n";
 	for (auto& a : daftar_buku) {
 		cout << a->nama << "\n";
