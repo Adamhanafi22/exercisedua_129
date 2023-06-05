@@ -39,7 +39,7 @@ void pengarang::tambahpenerbit(penerbit* pPenerbit) {
 	daftar_penerbit.push_back(pPenerbit);
 	pPenerbit->tambahpengarang(this);
 }
-void pengarang::cetakpenerbit() {
+void pengarang::cetakpenerbit() { 
 	cout << "daftar penerbit yang diikuti\"" << this->nama << "\":\n";
 	for (auto& a : daftar_penerbit) {
 		cout << a->nama << "\n";
